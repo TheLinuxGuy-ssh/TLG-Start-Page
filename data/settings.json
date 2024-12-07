@@ -1,0 +1,280 @@
+{
+	"username": "thelinuxguy",
+	"profile": {
+		"enable": "true",
+		"dp": "https://avatars.githubusercontent.com/u/107614947?v=4",
+		"glowColor": "rgba(255,255,255,0.9)"
+	},
+	"theme": {
+		"name": "Default",
+		"backgroundColor": "#121317",
+		"windowColor": "#1e212b",
+		"textColor": "#e2e2e2",
+		"black": "#16161e",
+		"red": "#ec6183",
+		"green": "#2ed8a2",
+		"yellow": "#e8b195",
+		"blue": "#2bc3de",
+		"magenta": "#d1aff8",
+		"cyan": "#62e0e2",
+		"white": "#e2e2e2",
+		"gray": "#97989d"
+	},
+	"wallpaper": {
+		"url": "../data/assets/background.png",
+		"easing": "ease-in-out",
+		"fadeIn": true,
+		"blur": false
+	},
+	"terminal": {
+		"fixedHeight": true,
+		"windowGlow": true,
+		"windowGlowColor": "#291f3325",
+		"textGlow": false,
+		"opacity": 0,
+		"blur": 16
+	},
+	"prompt": {
+		"ctrlC": true,
+		"placeholder": "command...",
+		"placeholderColor": "gray",
+		"userColor": "green",
+		"atColor": "gray",
+		"hostColor": "magenta",
+		"promptColor": "magenta",
+		"promptSymbol": "❯",
+		"caretColor": "green",
+		"selectionBg": "yellow",
+		"selectionFg": "black"
+	},
+	"fetch": {
+		"timeFormat": "HH:mm",
+		"dateFormat": "DD/MM/YYYY",
+		"titleColor": "yellow",
+		"image": "assets/default-icon.svg",
+		"data": [
+			"Time: {time}",
+			"Date: {date}",
+			"{seperator}",
+			"OS: {osName} {osVersion}",
+			"Theme: {theme}",
+			"{seperator}",
+			"Browser: {browser} {browserVersion}",
+			"Engine: {engineName}",
+			"{seperator}",
+			"{colors}"
+		]
+	},
+	"urlLaunch": {
+		"target": "_blank",
+		"hoverColor": "magenta"
+	},
+	"search": {
+		"default": "https://google.com/search?q=",
+		"target": "_self",
+		"shortcutRegex": "([A-Za-z0-9]+) (.*)",
+		"shortcuts": [
+			{
+				"alias": "g",
+				"name": "Google Search",
+				"url": "https://google.com/search?q={}"
+			},
+			{
+				"alias": "d",
+				"name": "DuckDuckGo Search",
+				"url": "https://duckduckgo.com/?q={}"
+			},
+			{
+				"alias": "b",
+				"name": "Brave Search",
+				"url": "https://search.brave.com/search?q={}"
+			},
+			{
+				"alias": "gh",
+				"name": "Github Search",
+				"url": "https://github.com/search?q={}"
+			},
+			{
+				"alias": "s",
+				"name": "Stack Overflow Search",
+				"url": "https://stackoverflow.com/search?q={}"
+			},
+			{
+				"alias": "r",
+				"name": "Subreddit Search",
+				"url": "https://reddit.com/r/{}"
+			},
+			{
+				"alias": "w",
+				"name": "Wikipedia Search",
+				"url": "https://en.wikipedia.org/wiki/{}"
+			}
+		]
+	},
+	"sections": {
+		"list": [
+			{
+				"title": "General",
+				"color": "green",
+				"align": "left",
+				"links": [
+					{
+						"name": "Portfolio",
+						"url": "https://github.com/rohansharma-developer",
+						"icon": "mdi:web"
+					},
+					{
+						"name": "Monkeytype",
+						"url": "https://monkeytype.com",
+						"icon": "simple-icons:monkeytype"
+					},
+					{
+						"name": "GPT",
+						"url": "https://chat.openai.com/",
+						"icon": "simple-icons:openai"
+					},
+					{
+						"name": "Cloudflare",
+						"url": "https://cloudflare.com",
+						"icon": "simple-icons:cloudflare"
+					}
+				]
+			},
+			{
+				"title": "Dev",
+				"color": "magenta",
+				"align": "left",
+				"links": [
+					{
+						"name": "GitHub",
+						"url": "https://github.com",
+						"icon": "mdi:github"
+					},
+					{
+						"name": "GitLab",
+						"url": "https://gitlab.com",
+						"icon": "ph:gitlab-logo-simple-fill"
+					},
+					{
+						"name": "Dev.to",
+						"url": "https://dev.to",
+						"icon": "material-symbols:logo-dev"
+					},
+					{
+						"name": "Stack Overflow",
+						"url": "https://stackoverflow.com/",
+						"icon": "mdi:stack-overflow"
+					}
+				]
+			},
+			{
+				"title": "Social",
+				"color": "cyan",
+				"align": "left",
+				"links": [
+					{
+						"name": "Linkedin",
+						"url": "https://linkedin.com",
+						"icon": "mdi:linkedin"
+					},
+					{
+						"name": "Instagram",
+						"url": "https://instagram.com",
+						"icon": "mdi:instagram"
+					},
+					{
+						"name": "Reddit",
+						"url": "https://reddit.com",
+						"icon": "mdi:reddit"
+					},
+					{
+						"name": "Discord",
+						"url": "https://discord.com/app",
+						"icon": "mdi:discord"
+					}
+				]
+			},
+			{
+				"title": "Gaming",
+				"color": "red",
+				"align": "left",
+				"links": [
+					{
+						"name": "Polygon",
+						"url": "https://polygon.com",
+						"icon": "uil:polygon"
+					},
+					{
+						"name": "IGN",
+						"url": "https://ign.com",
+						"icon": "mdi:currency-sign"
+					},
+					{
+						"name": "RPS",
+						"url": "https://rockpapershotgun.com/",
+						"icon": "ph:toilet-paper-bold"
+					},
+					{
+						"name": "80lv",
+						"url": "https://80.lv/",
+						"icon": "tabler:hand-rock"
+					}
+				]
+			},
+			{
+				"title": "Science",
+				"color": "blue",
+				"align": "left",
+				"links": [
+					{
+						"name": "PopSci",
+						"url": "https://popsci.com/",
+						"icon": "material-symbols:science"
+					},
+					{
+						"name": "Space",
+						"url": "fa6-solid:user-astronaut",
+						"icon": "mdi:reddit"
+					},
+					{
+						"name": "NASA",
+						"url": "https://blogs.nasa.gov/",
+						"icon": "simple-icons:nasa"
+					},
+					{
+						"name": "ESA",
+						"url": "https://blogs.esa.int/",
+						"icon": "mdi:black-mesa"
+					}
+				]
+			},
+			{
+				"title": "Tech",
+				"color": "yellow",
+				"align": "left",
+				"links": [
+					{
+						"name": "TechCrunch",
+						"url": "https://techcrunch.com/",
+						"icon": "game-icons:techno-heart"
+					},
+					{
+						"name": "Verge",
+						"url": "https://www.theverge.com/",
+						"icon": "arcticons:verge"
+					},
+					{
+						"name": "It's Foss",
+						"url": "https://itsfoss.com/",
+						"icon": "ri:mastodon-fill"
+					},
+					{
+						"name": "Arch Linux",
+						"url": "https://archlinux.org",
+						"icon": "uil:linux"
+					}
+				]
+			}
+		]
+	}
+}
