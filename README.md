@@ -1,5 +1,5 @@
 <div align="center">
-	<h1 align="center">Excalith Start Page</h1>
+	<h1 align="center">TLG Start Page</h1>
 	<img src=".github/startpage.gif" />
 
 This is an interactive start page for browsers, inspired from my terminal setup.
@@ -20,6 +20,7 @@ You can explore the working version [here](https://excalith-start-page.vercel.ap
 
 ## Features
 
+- Logo with glow support
 - Filter links by typing in the prompt
   - Quickly filter links by typing in the prompt. Hitting <kbd>Enter</kbd> will open all filtered links at once
   - If nothing filtered, the text in prompt will use the default search engine for searching your input
