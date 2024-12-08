@@ -3,9 +3,8 @@
 	<img src=".github/startpage.gif" />
 
 This is an interactive start page for browsers, inspired from my terminal setup.
-[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/tlg-start-page?logo=Vercel)] (https://tlg-start-page.vercel.app)
 
-[![Vercel Status](https://therealsujitk-vercel-badge.vercel.app/?app=excalith-start-page)] (https://excalith-start-page.vercel.app)
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/tlg-start-page?logo=Vercel)] (https://tlg-start-page.vercel.app)
 [![Demo Version (latest semver)](https://img.shields.io/github/package-json/v/excalith/excalith-start-page?label=preview)](https://github.com/excalith/excalith-start-page)
 [![GHCR Version (latest semver)](https://img.shields.io/github/v/tag/excalith/excalith-start-page?sort=semver&label=ghcr)](https://github.com/excalith/excalith-start-page/pkgs/container/excalith-start-page)
 [![Docker Version (latest semver)](https://img.shields.io/docker/v/excalith/start-page?sort=semver&label=docker)](https://hub.docker.com/r/excalith/start-page)
