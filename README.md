@@ -5,7 +5,7 @@
 This is an interactive start page for browsers, inspired from my terminal setup.
 
 [![Vercel Status](https://deploy-badge.vercel.app/vercel/tlg-start-page?logo=Vercel)](https://tlg-start-page.vercel.app)
-[![Demo Version (latest semver)](https://img.shields.io/github/package-json/v/thelinuxguy-ssh/tlg-start-page?label=preview)](https://github.com/excalith/excalith-start-page)
+[![Demo Version (latest semver)](https://img.shields.io/github/package-json/v/thelinuxguy-ssh/tlg-start-page?label=preview)](https://github.com/thelinuxguy-ssh/tlg-start-page)
 [![GHCR Version (latest semver)](https://img.shields.io/github/v/tag/excalith/excalith-start-page?sort=semver&label=ghcr)](https://github.com/excalith/excalith-start-page/pkgs/container/excalith-start-page)
 [![Docker Version (latest semver)](https://img.shields.io/docker/v/excalith/start-page?sort=semver&label=docker)](https://hub.docker.com/r/excalith/start-page)
 
