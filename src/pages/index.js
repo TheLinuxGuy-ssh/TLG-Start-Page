@@ -88,7 +88,7 @@ export default function Home() {
 		<main className={"transition-all duration-200 ease-in-out"}>
 			{isReady && (
 				<>
-				<Profile />
+					<Profile />
 					<Meta />
 					{wallpaper && (
 						<Image

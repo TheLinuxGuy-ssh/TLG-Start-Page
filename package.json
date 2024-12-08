@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "start": "next start",
-        "lint": "next lint --fix",
+        "lint": "next lint",
         "format": "prettier . --write",
         "export": "next export",
         "build": "next build",

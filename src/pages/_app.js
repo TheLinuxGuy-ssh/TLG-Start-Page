@@ -28,9 +28,7 @@ function fallbackRender({ error, resetErrorBoundary }) {
 						<p>
 							This is probably caused by faulty or obsolete local configuration,
 							stored in localStorage. Please refer to{" "}
-							<a
-								className="underline"
-								href="">
+							<a className="underline" href="">
 								troubleshooting
 							</a>{" "}
 							page for more information about how to fix this, or click the button
@@ -47,18 +45,14 @@ function fallbackRender({ error, resetErrorBoundary }) {
 					<>
 						<p>
 							This is an unexpected error. Please refer to{" "}
-							<a
-								className="underline"
-								href="">
+							<a className="underline" href="">
 								troubleshooting
 							</a>{" "}
 							possible solutions.
 						</p>
 						<p className="mt-line">
 							If nothing helps, please report this issue on{" "}
-							<a
-								className="underline"
-								href="">
+							<a className="underline" href="">
 								issues
 							</a>{" "}
 							by filling out the form. Don't forget to include the error message and
