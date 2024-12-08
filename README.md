@@ -6,6 +6,7 @@ This is an interactive start page for browsers, inspired from my terminal setup.
 
 [![Vercel Status](https://deploy-badge.vercel.app/vercel/tlg-start-page?logo=Vercel)](https://tlg-start-page.vercel.app)
 [![Demo Version (latest semver)](https://img.shields.io/github/package-json/v/thelinuxguy-ssh/tlg-start-page?label=preview)](https://github.com/thelinuxguy-ssh/tlg-start-page)
+[![Publish Release Image On Release](https://github.com/TheLinuxGuy-ssh/TLG-Start-Page/actions/workflows/publish-release.yml/badge.svg)](https://github.com/TheLinuxGuy-ssh/TLG-Start-Page/actions/workflows/publish-release.yml)
 </div>
 
 ## Demo
