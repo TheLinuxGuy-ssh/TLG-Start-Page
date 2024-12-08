@@ -42,8 +42,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            excalith/start-page
-            ghcr.io/excalith/excalith-start-page
+            thelinuxguy-ssh/start-page
+            ghcr.io/thelinuxguy-ssh/tlg-start-page
 
       - name: Build and Push Docker images
         uses: docker/build-push-action@v4
@@ -51,6 +51,6 @@ jobs:
           context: .
           push: true
           tags: |
-            excalith/start-page:${{ inputs.name }}
-            ghcr.io/excalith/excalith-start-page:${{ inputs.name }}
+            thelinuxguy-ssh/start-page:${{ inputs.name }}
+            ghcr.io/thelinuxguy-ssh/tlg-start-page:${{ inputs.name }}
           platforms: linux/amd64,linux/arm64
