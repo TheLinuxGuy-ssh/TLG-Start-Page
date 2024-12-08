@@ -27,20 +27,13 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Log in to the GHCR
-        uses: docker/login-action@v2
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Extract MetaData (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v4
         with:
           images: |
-            thelinuxguy-ssh/start-page
-            ghcr.io/thelinuxguy-ssh/tlg-start-page
+            thelinuxguyssh/start-page
+            ghcr.io/thelinuxguyssh/tlg-start-page
 
       - name: Build and Push Docker images
         uses: docker/build-push-action@v4
