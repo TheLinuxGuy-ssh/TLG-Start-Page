@@ -12,7 +12,7 @@
 		"import/no-anonymous-default-export": 0,
 		"react-hooks/exhaustive-deps": "warn",
 		"react-hooks/rules-of-hooks": "error",
-		"no-tabs": 0,
+		"no-tabs": 1,
 		"prettier/prettier": "error"
 	}
 }
