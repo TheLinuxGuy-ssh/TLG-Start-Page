@@ -1,7 +1,7 @@
 {
 	"username": "thelinuxguy",
 	"profile": {
-		"enable": "true",
+		"enable": true,
 		"dp": "https://avatars.githubusercontent.com/u/107614947?v=4",
 		"glowColor": "rgba(255,255,255,0.9)"
 	},
@@ -119,8 +119,8 @@
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://thelinuxguy.tech",
+						"name": "TLG Portfolio",
+						"url": "https://linuxguy.tech",
 						"icon": "mdi:web"
 					},
 					{
@@ -161,9 +161,9 @@
 						"icon": "material-symbols:logo-dev"
 					},
 					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
+						"name": "Claude",
+						"url": "https://claude.ai",
+						"icon": "simple-icons:claude"
 					}
 				]
 			},
