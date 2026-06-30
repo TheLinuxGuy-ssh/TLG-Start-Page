@@ -13,7 +13,7 @@ const Link = ({ linkData, filter, selection }) => {
 	const icon = linkData.icon
 	const target = settings.urlLaunch.target
 
-	useEffect(() => {
+	;(useEffect(() => {
 		const lower_command = filter.toLowerCase()
 
 		if (lower_command) {
@@ -23,7 +23,7 @@ const Link = ({ linkData, filter, selection }) => {
 			setHidden(false)
 		}
 	}, [filter, lower_name, target, url]),
-		[filter]
+		[filter])
 
 	useEffect(() => {
 		setSelected(lower_name === selection)
