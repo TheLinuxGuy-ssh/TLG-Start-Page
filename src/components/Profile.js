@@ -11,6 +11,7 @@ const Profile = () => {
 				}
 				style={{ boxShadow: "0 0 60px -15px " + settings.profile.glowColor }}
 				src={settings.profile.dp}
+				alt="profile-img"
 			/>
 		</>
 	)
