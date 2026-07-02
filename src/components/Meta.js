@@ -11,7 +11,7 @@ const Meta = () => {
 
 	useEffect(() => {
 		// Set title
-		setTitle(settings.username + " Start Page")
+		setTitle(settings.meta?.title || "TLG Start Page")
 
 		// Return if there is no icon
 		if (!settings.fetch.image) return
@@ -24,6 +24,9 @@ const Meta = () => {
 				break
 			case "png":
 				setIconType("image/png")
+				break
+			case "webp":
+				setIconType("image/webp")
 				break
 			default:
 				setIconType("na")
@@ -39,7 +42,7 @@ const Meta = () => {
 			.catch((error) => {
 				console.error("Failed to fetch icon:", error)
 			})
-	}, [settings.fetch.image, settings.username])
+	}, [settings.fetch.image, settings.username, settings.meta.title])
 
 	return (
 		<Head>

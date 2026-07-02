@@ -1,8 +1,11 @@
 {
 	"username": "thelinuxguy",
+	"meta": {
+		"title": "TLG Start Page"
+	},
 	"profile": {
 		"enable": true,
-		"dp": "https://avatars.githubusercontent.com/u/107614947?v=4",
+		"dp": "assets/tlg.webp",
 		"glowColor": "rgba(255,255,255,0.9)"
 	},
 	"theme": {
@@ -52,7 +55,7 @@
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
 		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
+		"image": "assets/tlg.webp",
 		"data": [
 			"Time: {time}",
 			"Date: {date}",
