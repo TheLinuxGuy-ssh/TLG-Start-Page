@@ -107,9 +107,139 @@ img {
   }
 
   .terminal {
-	
+	border-bottom-right-radius: 1.85em;
+	border-bottom-left-radius: 1.85em;
+	margin: 0;
+	border: 0;
+	outline: 0;
   }
 
   .profile-logo {
 	border-radius: 50%;
   }
+
+.window {
+    min-width: 50em;
+    min-height: 32.5em;
+    width: 50em;
+    height: 32.5em;
+    border-radius: 1.85rem;
+    position: relative;
+    color: #fff;
+    display:block;
+    resize: both;
+}
+.popup.AboutSys {
+    width: 350px;
+}
+.window.pressed  {
+    transition: none;
+}
+.window-topbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    display: flex;
+    z-index: 1 !important;
+	background-color: #1213176a;
+
+}
+.window-topbar-buttons {
+    position: relative;
+    display: flex;
+    padding: 0.4rem;
+    margin: 0.75rem !important;
+	opacity: 0;
+    border-radius: 1.8rem;
+    transition: 0.2s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.window-topbar-buttons:hover {
+    padding: 0.5rem;
+    margin: 0.65rem !important;
+}
+
+.window-topbar-buttons .window-btn:hover {
+    transform: scale(1.1);
+}
+
+.window-content {
+    margin-top: 3rem;
+    height: calc(100% - 3rem);
+    width: 100%;
+    overflow: visible;
+    display: block;
+    position: relative;
+}
+
+.window-btn {
+    width: 15.5px;
+    height: 15.5px;
+    border-radius: 50%;
+    margin: 0 0.3rem;
+    transition: 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window-btn * {
+    opacity: 0;
+    transition: 0.2s all;
+}
+
+.window-topbar-buttons:hover .window-btn * {
+    opacity: 1;
+}
+
+.window-btn.close {
+    background-color: #FF605C;
+}
+
+.window-btn.minimise {
+    background-color: yellow;
+}
+
+.window-btn.maximise {
+    background-color: #00CA4E;
+}
+
+.focused {
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+.window-btn-maximise {
+    width: 70%;
+    height: 70%;
+}
+
+.window {
+    top: 0;
+    
+}
+
+.app-maximized {
+    width: calc(100% - 5px) !important; 
+    height: calc(100% - 5px) !important;
+    top: 0 !important;
+    left: 0 !important;
+    resize: none;
+}
+.app-maximized .liquidGlass-effect .app-maximized .liquidGlass-tint .app-maximized .liquidGlass-shine {
+    display: none !important;
+}
+
+.app-minimising {
+        transition: 0.3s;
+}
+
+.app-hidden {
+    transition: 0.3s;
+    top: 100% !important;
+    transform: scale(0.2);
+}

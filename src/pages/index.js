@@ -3,6 +3,7 @@ import Image from "next/image"
 import Meta from "@/components/Meta"
 import Terminal from "@/components/Terminal"
 import Profile from "@/components/Profile"
+import Window from "@/components/Window"
 import "@fontsource/fira-code/400.css"
 import "@fontsource/fira-code/600.css"
 import { useSettings } from "@/context/settings"
@@ -106,7 +107,9 @@ export default function Home() {
 						/>
 					)}
 					<div className={`animate-fadeIn`}>
-						<Terminal />
+						<Window>
+							<Terminal />
+						</Window>
 					</div>
 				</>
 			)}

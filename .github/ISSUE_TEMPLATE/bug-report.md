@@ -3,14 +3,9 @@ name: Bug Report
 about: Create a report to help us improve
 title: "[BUG] "
 labels: ''
-assignees: excalith
+assignees: thelinuxguy
 ---
 
-<!-- 
-	Please fill this template please be as descriptive as possible
-	For more information, you can refer to  contributing guideline
-	https://github.com/excalith/excalith-start-page/blob/main/.github/CONTRIBUTING.md
--->
 
 ### Describe The Bug
 A clear and concise description of what the bug is.

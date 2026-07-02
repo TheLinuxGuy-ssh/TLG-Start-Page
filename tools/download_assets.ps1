@@ -4,9 +4,6 @@
 # tedious stuff. Use at your own risk. If you modify unrelated lines 
 # or do some custom stuff, you might cause problems.
 #
-# For more information:
-# Discussions: https://github.com/excalith/excalith-start-page/discussions/61
-# Sources: https://github.com/excalith/excalith-start-page/tree/main/tools
 #=============================================================================
 
 #=========================================
@@ -20,7 +17,7 @@ param (
     [string]$assets
 )
 
-$base_url = "https://raw.githubusercontent.com/excalith/excalith-start-page/main/data/"
+$base_url = "https://raw.githubusercontent.com/thelinuxguy/tlg-start-page/main/data/"
 $downloadAssets = $false
 
 #=========================================

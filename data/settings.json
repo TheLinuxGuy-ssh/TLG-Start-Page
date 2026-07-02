@@ -27,6 +27,7 @@
 		"blur": false
 	},
 	"terminal": {
+		"draggable": true,
 		"fixedHeight": true,
 		"windowGlow": true,
 		"windowGlowColor": "#291f3325",
