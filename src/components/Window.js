@@ -160,7 +160,7 @@ const Window = ({
 				maxWidth: maxw,
 				maxHeight: maxh
 			}}
-			className={`window window-glow bg-window-color liquidGlass-wrapper ${type === "popup" ? "popup" : ""} ${className}`}
+			className={`window ${settings.terminal.windowGlow ? "window-glow" : ""}  bg-window-color liquidGlass-wrapper ${type === "popup" ? "popup" : ""} backdrop-blur-md`}
 			onMouseDown={() => bringToFront && bringToFront(uid)}
 			type={type}>
 			<div

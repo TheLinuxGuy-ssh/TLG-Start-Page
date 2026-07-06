@@ -83,8 +83,7 @@ a:hover {
 }
 
 .bg-window-color {
-	opacity: var(--window-opacity);
-	backdrop-filter: blur(var(--window-blur));
+	
 }
 
 .selected {

@@ -6,11 +6,10 @@ const Profile = () => {
 	const { settings } = useSettings()
 	const [icon, setIcon] = useState(null)
 	useEffect(() => {
-		// Fetch fetch image
 		fetchAsset(settings.fetch.image)
 			.then((data) => {
 				if (data) {
-					setIcon(data) // Set the image only if there is no warning message
+					setIcon(data)
 				}
 			})
 			.catch((error) => {

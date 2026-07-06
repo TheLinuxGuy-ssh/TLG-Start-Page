@@ -236,8 +236,8 @@
 						"icon": "material-symbols:science"
 					},
 					{
-						"name": "Space",
-						"url": "fa6-solid:user-astronaut",
+						"name": "Reddit",
+						"url": "https://reddit.com",
 						"icon": "mdi:reddit"
 					},
 					{

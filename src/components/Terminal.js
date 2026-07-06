@@ -57,7 +57,7 @@ const Terminal = () => {
 
 	return (
 		<div
-			className={`terminal relative w-full h-full transform shadow-lg  max-w-terminal p-terminal`}
+			className={`terminal relative w-full h-full transform max-w-terminal p-terminal`}
 			ref={windowRef}>
 			{getWindow()}
 		</div>
