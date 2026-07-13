@@ -52,6 +52,11 @@ You can explore the working version [here](https://tlg-start-page.vercel.app). T
 - Clear the prompt quickly with <kbd>CTRL</kbd> + <kbd>C</kbd>
 - Close windows with <kbd>ESC</kbd>
 
+## Want to help?
+
+See [Contributing](https://github.com/thelinuxguy-ssh/tlg-start-page/contribute) for
+details.
+
 ## License
 
 The code is available under the [MIT license](LICENSE). Feel free to copy, modify, and distribute the code as you wish, but please keep the original license in the files. Attribution is appreciated and will definetely help improving this project.
