@@ -121,6 +121,7 @@ img {
     min-width: fit-content;
     min-height: fit-content;
     width: 40em;
+    max-width: 100%;
     height: fit-content;
     border-radius: 1.85rem;
     position: relative;
@@ -130,6 +131,7 @@ img {
 }
 .popup.AboutSys {
     width: 350px;
+    max-width: 95vw;
 }
 .window.pressed  {
     transition: none;
@@ -259,4 +261,46 @@ img {
     transition: 0.3s;
     top: 100% !important;
     transform: scale(0.2);
+}
+
+/* ========================================================================
+   Responsive styles — fix terminal window overflow on small screens (#1)
+   ======================================================================== */
+
+@media (max-width: 638px) {
+  .window {
+    width: 100%;
+    min-width: 0;
+    border-radius: 0;
+    resize: none;
+  }
+
+  .terminal {
+    border-radius: 0;
+    padding: 0.5rem;
+  }
+
+  .window-content {
+    overflow-x: auto;
+    overflow-y: auto;
+    word-break: break-word;
+  }
+
+  .window-topbar {
+    border-radius: 0;
+  }
+
+  .popup.AboutSys {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .window {
+    font-size: 0.85rem;
+  }
+
+  .window-content {
+    padding: 0.25rem;
+  }
 }
