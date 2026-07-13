@@ -4,7 +4,7 @@
 		"title": "TLG Start Page"
 	},
 	"profile": {
-		"enable": true,
+		"enable": false,
 		"dp": "assets/tlg.webp",
 		"glowColor": "rgba(255,255,255,0.9)"
 	},

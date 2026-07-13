@@ -150,14 +150,20 @@ img {
 	width: 4em;
 	background-color: #3b3b3b;
 	border-radius: 1em;
-	margin: 0.5em 0;
+	margin: 0.75em 0;
 	opacity: 0;
-	transition: 0.5s;
+	transition: 0.25s;
 }
+
 
 .window-topbar:hover .window-topbar-pill, #window.pressed .window-topbar-pill {
 	opacity: 1;
 }
+
+.window-topbar:active .window-topbar-pill {
+    transform: scale(0.9);
+}
+
 .window-topbar-buttons {
     position: relative;
     display: flex;
