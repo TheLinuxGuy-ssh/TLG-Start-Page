@@ -9,9 +9,13 @@ const Prompt = ({ command, showSymbol = true }) => {
 
 	return (
 		<span className="prompt flex shrink-0 cursor-default items-center whitespace-nowrap overflow-hidden max-w-[45%] sm:max-w-none">
-			<span className={`prompt-user text-${promptSettings.userColor} truncate`}>{lower_username}</span>
+			<span className={`prompt-user text-${promptSettings.userColor} truncate`}>
+				{lower_username}
+			</span>
 			<span className={`text-${promptSettings.atColor}`}>@</span>
-			<span className={`prompt-host text-${promptSettings.hostColor} truncate`}>{browserData.browserLower}</span>
+			<span className={`prompt-host text-${promptSettings.hostColor} truncate`}>
+				{browserData.browserLower}
+			</span>
 			{showSymbol && (
 				<span className={`text-${promptSettings.promptColor} ml-2 shrink-0`}>
 					{" "}
