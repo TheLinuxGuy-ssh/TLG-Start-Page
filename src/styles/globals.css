@@ -293,6 +293,22 @@ img {
   .popup.AboutSys {
     width: 100%;
   }
+
+  /* Keep username@browser on one line beside the input (#3) */
+  #search {
+    gap: 0.25rem;
+  }
+
+  .prompt {
+    max-width: 42%;
+    font-size: 0.85em;
+    margin: 0;
+    padding: 0;
+  }
+
+  #search-container {
+    margin-left: 0.35rem;
+  }
 }
 
 @media (max-width: 480px) {

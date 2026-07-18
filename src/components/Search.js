@@ -118,9 +118,9 @@ const Search = ({ commandChange, selectionChange }) => {
 	}, [filteredItems])
 
 	return (
-		<div id="search" className="flex">
+		<div id="search" className="flex items-center min-w-0 w-full">
 			<Prompt />
-			<div id="search-container" className="flex grow ml-2.5">
+			<div id="search-container" className="flex grow ml-2.5 min-w-0">
 				<input
 					className={`z-10 w-full bg-transparent text-textColor outline-none appearance-none shadow-none caret-${settings.prompt.caretColor}`}
 					type="text"
